@@ -1,0 +1,48 @@
+<%- include("header"); -%>
+<section id="top">
+  <div class="container-fluid-customers">
+  <nav class="navbar navbar-expand-lg">
+   <a class="navbar-brand" href="#">
+  <img class="bank-img" src="https://iconarchive.com/download/i102612/graphicloads/flat-finance/bank.ico" alt="" width="60" height="30" class="d-inline-block align-text-top">
+  Saathi Bank
+</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mb-2 mb-lg-0">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="/">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#contact">Contact</a>
+    </li>
+  </ul>
+</div>
+</nav>
+</div>
+</section>
+<section id="customers-content">
+  <h1 class="h2-about" style="font-size: 3.5rem; margin-bottom: 30px;">Transactions</h1>
+  <table class="table table-bordered border-danger custom-table">
+  <thead class="custom-thead">
+    <tr>
+      <th scope="col">S No.</th>
+      <th scope="col">Sender</th>
+      <th scope="col">Receiver</th>
+      <th scope="col">Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% for(var i=0;i<transactionList.length;i++) { %>
+    <tr>
+      <th scope="row"><%= i+1 %></th>
+      <td><%= transactionList[i].sender %></td>
+      <td><%= transactionList[i].receiver %></td>
+      <td><%= transactionList[i].amount %></td>
+    </tr>
+    <% } %>
+  </tbody>
+</table>
+</section>
+<%- include("footer"); -%>

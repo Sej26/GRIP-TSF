@@ -1,0 +1,125 @@
+#top{
+  background-image: linear-gradient(to bottom right,#FF869E, #A10035);
+  color: white;
+  text-align: left;
+}
+body{
+  font-family: "Montserrat" ;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+}
+h3{
+  font-size: 1.5rem;
+  font-weight:bolder;
+}
+.bank-img{
+  width:150px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.container-fluid{
+  padding: 3% 7% 7%;
+}
+.navbar-collapse{
+  padding-left: 45%;
+  padding-right: 0;
+  margin: 0;
+}
+.navbar-nav{
+  padding:0;
+  margin: 0;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  padding-left: 20px;
+  font-size:3.5rem;
+  font-weight: bold;
+  color: white;
+}
+.navbar-brand:hover{
+  color: white;
+}
+.nav-item{
+  padding: 0 10px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+.Buttons{
+  text-align: center;
+}
+.btn-custom{
+  background-color: #90C8AC;
+  font-size: 20px;
+  color: green;
+  margin-right: 16px;
+}
+.btn-custom:hover{
+  background-color: #BDF2D5;
+  color: black;
+}
+#about-bank{
+  text-align: center;
+  padding: 7% 10% 5% 10%;
+}
+.h2-about{
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  padding-bottom: 2%;
+  color: #F94C66;
+}
+p{
+  font-size: 1.2rem;
+}
+#contact{
+  background-color: #EB5353;
+  padding: 5% 15% 5% 15%;
+  color : black;
+
+}
+.h2-contact{
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  padding-bottom: 2%;
+  color: white;
+}
+#footer{
+  padding: 5% 15% 0.5% 15%;
+}
+i{
+  margin-right: 4px;
+}
+footer p{
+  font-size: 1rem;
+  padding-top: 5px;
+}
+
+<-----Customer page------>
+.container-fluid-customers{
+  padding: 3% 7% 7% 1%;
+}
+#customers-content{
+  text-align: center;
+  margin: auto;
+  padding: 7% ;
+}
+.custom-table{
+  text-align:center;
+}
+.custom-thead{
+  background-color: #A5C9CA;
+}
+label{
+  font-weight: bold;
+  color:#66BFBF;
+  font-size: 2rem;
+}

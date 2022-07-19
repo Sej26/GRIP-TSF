@@ -1,0 +1,47 @@
+    <%- include("header") -%>
+    <% if(success!= "") { %>
+    <div class="alert alert-success">
+      <strong> <%= success %></strong>
+    </div>
+    <% } %>
+    <section id="top">
+      <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+       <a class="navbar-brand" href="#">
+      <img class="bank-img" src="https://iconarchive.com/download/i102612/graphicloads/flat-finance/bank.ico" alt="" width="60" height="30" class="d-inline-block align-text-top">
+      Saathi Bank
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-bank">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+<div class="Buttons">
+  <a class="btn btn-custom" href="customers" role="button">View All Customers</a>
+  <a class="btn btn-custom" href="transactions" role="button">Transaction History</a>
+</div>
+</div>
+    </section>
+    <section id="about-bank">
+      <div class="about-content">
+        <h2 class="h2-about">About</h2>
+        <p>Saathi Bank Limited is an Indian banking and financial services company headquartered in Bengaluru, India. It offers banking products and
+financial services for corporate and retail customers in the areas of personal finance, investment banking, life insurance,
+and wealth management. It is India's third largest private sector bank by assets and by market capitalisation as of November 2021. As of February 2021,
+the bank has 1600 branches and 2519 ATMs.</p>
+      </div>
+
+    </section>
+    <%- include("footer") -%>
